@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# training-oaxaca-com
+Web UI for training Oaxaca staff
 
 ## Available Scripts
 
