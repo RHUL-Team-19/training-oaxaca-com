@@ -3,16 +3,16 @@ class Points {
     constructor (initScore:number=0) {
         this.points = initScore;
     }
-    function getPoints():number {
+    public getPoints(){
         return this.points;
     }
-    function resetPoints():void{
+    public resetPoints(){
         this.points=0;
     }
-    function addPoint(increment:number=0):void{
+    public addPoint(increment:number=0){
         this.points+=increment;
     }
-    function rmvPoint(decrement:number=0):void{
+    public rmvPoint(decrement:number=0){
         this.points-=decrement;
         if (this.points<0){
             this.points=0;
