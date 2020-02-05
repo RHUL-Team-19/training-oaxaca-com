@@ -16,7 +16,7 @@ function WelcomeScreen(props) {
           <Image3 src={require("../assets/images/Allergens.jpg")}></Image3>
         </Group>
         <Button3Row>
-          <Link to="/TestButtons">
+          <Link to="/MenuLearningMessage">
             <Button3>
               <ButtonOverlay>
                 <Menu2>Menu</Menu2>
