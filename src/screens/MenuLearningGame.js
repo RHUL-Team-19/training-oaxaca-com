@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 function MenuLearningGame(props){
     return(
-        <React>
-            <React2>
+        <Rect>
+            <Rect2>
                 <MenuLearningMessage>
                     This is where the Menu learning game training happens! Answer as many questions correctly as you can.
                 </MenuLearningMessage>
-            </React2>
-        </React>
+            </Rect2>
+        </Rect>
     )
 }
 
