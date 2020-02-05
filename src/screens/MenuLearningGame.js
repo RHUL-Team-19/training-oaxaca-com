@@ -49,3 +49,5 @@ const ButtonOverlay = styled.button`
   margin-top: 57px;
   align-self: center;
 `;
+
+export default MenuLearningGame;
