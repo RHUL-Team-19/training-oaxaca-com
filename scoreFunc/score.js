@@ -23,3 +23,15 @@ var Points = /** @class */ (function () {
     };
     return Points;
 }());
+var pt1 = new Points();
+console.log(pt1.getPoints());
+var pt2 = new Points(10);
+console.log(pt2.getPoints());
+for (var i = 0; i < 5; ++i) {
+    pt1.addPoint(1);
+}
+console.log(pt1.getPoints());
+pt1.resetPoints();
+console.log(pt1.getPoints());
+pt2.rmvPoint(10);
+console.log(pt2.getPoints());

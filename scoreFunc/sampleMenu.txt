@@ -1,10 +1,2 @@
-m1
-m2
-m3
-m4
-m5
-m6
-m7
-m8
-m9
-m10
+m1;Tlayuda;235;with meat, cheese and more served in Mazunte;False;False;True;True;False;True;True;False;True;<some link here>
+m2;Chileajo;69;famous mexican street food;True;True;False;True;True;False;True;False;True;True;<some link here>
