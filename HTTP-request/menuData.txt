@@ -247,3 +247,252 @@ does_contain_nuts	false
 does_contain_gluten	false	
 does_contain_dairy	false	
 image_url	https://objects.wsantos.net/oaxaca-com/menu/images/chicken_enchiladas.jpg	
+meal_id	2	
+name	Tacos	
+price	0.5	
+description	Fried tortilla filled with a choice of filling (beaf	
+ chesse	
+ letuce	
+ sweetcorn	
+ peppers) and sauce.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	true	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg	
+meal_id	3	
+name	Tamale	
+price	18	
+description	Steamed	
+ corn based dough	
+ with a choice of filling (meats	
+ cheeses	
+ fruits	
+ vegetables	
+ chilies).	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/tamale.jpg	
+meal_id	4	
+name	Gordita	
+price	15.4	
+description	Thick tortillas	
+ with a choice of filling (meat stew	
+ cheese	
+ beans	
+ nopal cactus	
+ and salsa or guacamole).	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	true	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/gordita.jpg	
+meal_id	5	
+name	Quesadillas	
+price	25	
+description	A fried tortilla filled with cheese and a choice of either meat or vegetables as a filling.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/quesadilla.jpg	
+meal_id	6	
+name	Empalme	
+price	6.9	
+description	2 lard-brushed corn tortillas filled with refried beans and tomato salsa. (chorizo	
+ hot chile peppers can be added).	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/empalme.jpg	
+meal_id	7	
+name	Tostada	
+price	4.2	
+description	A crispy fried tortilla	
+ spread with refried beans or guacamole and topped with lettuce	
+ tomato	
+ onion	
+ cilantro	
+ salsa	
+ cheese	
+ and sour cream.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/tostada.jpg	
+meal_id	8	
+name	Chalupa	
+price	6.66	
+description	A fried	
+ boat-shaped tortilla filled with ground beef or pork	
+ cheese	
+ diced vegetables	
+ and seasonings.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/chalupa.jpg	
+meal_id	9	
+name	Huevos rancheros	
+price	10.5	
+description	Fried eggs served on lightly fried corn tillas	
+ topped with refried beans	
+ Mexican-style rice	
+ and guacamole or slices of avocado and cilantro.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	true	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	true	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/huevos_rancheros.jpg	
+meal_id	10	
+name	Nachos	
+price	1.23	
+description	Heated tortilla chips covered with melted cheese.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	false	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/nachos.jpg	
+meal_id	11	
+name	Fajitas	
+price	4.56	
+description	Corn tortilla filled with grilled chicken or beef	
+ sliced peppers	
+ tomoatoes and cheese as a topping.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	false	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/fajitas.jpg	
+meal_id	12	
+name	Chilli con carne	
+price	17.63	
+description	Spicy meat stew	
+ with peppers	
+ kidney beans and rice as a side.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	false	
+does_contain_nuts	false	
+does_contain_gluten	true	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/chilli_con_carne.jpg	
+meal_id	13	
+name	Sopa de nueces	
+price	0.69	
+description	Broth-based walnut soup.	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	false	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/sopa_de_nueces.jpg	
+meal_id	14	
+name	Bread pudding 	
+price	5	
+description	Cubes of bread that have been soaked in a custard sauce	
+ topped with hot maple syrup.	
+is_vegan	false	
+is_vegetarian	true	
+does_contain_egg	true	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	true	
+does_contain_wheat	true	
+does_contain_nuts	true	
+does_contain_gluten	true	
+does_contain_dairy	true	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/bread_pudding.jpg	
+meal_id	15	
+name	Chicken enchiladas	
+price	19.39	
+description	A corn tortilla	
+ filled with meats	
+ cheese	
+ beans	
+ potatoes and covered with a chili pepper sauce. 	
+is_vegan	false	
+is_vegetarian	false	
+does_contain_egg	false	
+does_contain_soy	false	
+does_contain_fish	false	
+does_contain_lactose	false	
+does_contain_wheat	false	
+does_contain_nuts	false	
+does_contain_gluten	false	
+does_contain_dairy	false	
+image_url	https://objects.wsantos.net/oaxaca-com/menu/images/chicken_enchiladas.jpg	
