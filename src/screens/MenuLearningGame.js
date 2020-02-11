@@ -120,6 +120,7 @@ const Image = styled.img`
   width: 100%;
   height: 300px;
   object-fit: contain;
+  align-items: center;
 `;
 
 var testStringVar = "helloooo";
