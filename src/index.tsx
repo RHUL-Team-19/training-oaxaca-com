@@ -4,11 +4,18 @@ import './index.css';
 import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import history from './history';
-import WelcomeScreen from './screens/WelcomeScreen';
+import welcomescreen from './screens/WelcomeScreen';
 
 ReactDOM.render(
     <Router history={history}>
-        <Redirect to="/WelcomeScreen" />
+        <Redirect to="/welcomescreen" />
+        {/*TODO
+            <Switch>
+                <Route exact path="/welcomescreen" component={WelcomeScreen} />
+                <Route exact path="/menugame" component={MenuLearningGame} />
+                <Route path="/greetingsgame" component={GreetingsGame} />
+            </Switch>
+        **/}
     </Router>,
     document.getElementById('root')
 );
