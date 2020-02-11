@@ -6,12 +6,12 @@ import { Router } from 'react-router-dom';
 //import { redirect } from '../util/Util';
 import '../style/style.css';
 
-const WelcomeScreenContainer = styled.div`
+const AllergyGameContainer = styled.div`
   width: 35vw;
   height: 16.5vw;
 `;
 
-export default class WelcomeScreen extends React.Component{
+class AllergyLearningGame extends React.Component{
 
     handleButton () {
         /*handleButton fuction:
@@ -28,8 +28,8 @@ export default class WelcomeScreen extends React.Component{
         **/
         return (
             <Router history={history}>
-                <div className="welcome-screen is-desktop">
-                    <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
+                <div className="Allergy-screen is-desktop">
+                    <h2>BUTTONS WORK</h2>
                     
                     {/* <div className="images">
                         <figure className="image is-80x120">
