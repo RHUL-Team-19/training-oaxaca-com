@@ -19,9 +19,9 @@ export default class WelcomeScreen extends React.Component{
             - If menuGame button is pressed then change page to the MenuLearningGame page.
             onClick={() => redirect(`menu/find/${meal_id}`)}
         **/
-       if(e = 'menu'){
+       if(e === 'menu'){
         alert('menu');
-       } else if(e = 'greeting'){
+       } else if(e === 'greeting'){
         alert('greetings');
        } else {
         alert('allergy');
@@ -39,45 +39,62 @@ export default class WelcomeScreen extends React.Component{
             <Router history={history}>
                 <div className="welcome-screen is-desktop">
                     <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
-                    
-                    <div className="images">
-                        <figure className="image is-3by4">
-                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
-                        </figure>
-                    </div>
 
                     <div className="buttons">
-                    <table className="table is-fullwidth" style={{ marginLeft: '280px' }}>
+                        <table className="table is-fullwidth" style={{ marginLeft: '280px' }}>
                         {/*TODO place the top into table form
                         **/}
-                        <thead>
+                        {/* <thead>
                             <tr>
                                 <th>Menu Learning Game</th>
                                 <th>Alergy Learning Game</th>
                                 <th>Greetings Learning Game</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        */}
+                            <tbody>
                             {/**
                              * 3 buttons on page for each game.
                              * Move into seperate tables
                              */}
-                            <th>
-                                <button className="menuGame" onClick={() => this.handleButton('menu')}>
-                                    <span className="icon is-small">
-                                    <i className="fas fa-edit"></i>
-                                    </span>
-                                    <span>Menu Learning</span>
-                                </button>
-                            </th>
-                            <th>
-                                <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
-                            </th>
-                            <th>
-                                <button className="greetingGame" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
-                            </th>
-                        </tbody>
-                    </table>
+
+                                <tr>
+                                    <td>
+                                        <figure className="image is-128x128">
+                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        <figure className="image is-128x128">
+                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        <figure className="image is-128x128">
+                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
+                                        </figure>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button className="menuGame" onClick={() => this.handleButton('menu')}>
+                                            <span className="icon is-small">
+                                            <i className="fas fa-edit"></i>
+                                            </span>
+                                            <span>Menu Learning</span>
+                                        </button>
+
+                                    </td>
+                                    <td>
+                                        <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
+                                    </td>
+                                    <td>
+                                        <button className="greetingGame" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
+                                    </td>
+                                </tr>
+                            
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </Router>
