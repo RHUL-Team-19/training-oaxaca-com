@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { Router } from 'react-router-dom';
 //import { redirect } from '../util/Util';
 import '../style/style.css';
+import Navbar from '../components/Navbar';
+import MainBox from '../components/MainBox';
 
 const WelcomeScreenContainer = styled.div`
   width: 35vw;
@@ -37,66 +39,61 @@ export default class WelcomeScreen extends React.Component{
 
         return (
             <Router history={history}>
-                <div className="welcome-screen is-desktop">
-                    <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
+                <Navbar />
+                <MainBox>
+                    <div className="welcome-screen is-desktop">
+                        <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
 
-                    <div className="buttons">
-                        <table className="table is-fullwidth" style={{ marginLeft: '280px' }}>
-                        {/*TODO place the top into table form
-                        **/}
-                        {/* <thead>
-                            <tr>
-                                <th>Menu Learning Game</th>
-                                <th>Alergy Learning Game</th>
-                                <th>Greetings Learning Game</th>
-                            </tr>
-                        </thead>
-                        */}
-                            <tbody>
-                            {/**
-                             * 3 buttons on page for each game.
-                             * Move into seperate tables
-                             */}
+                        <div className="buttons">
+                            <table className="table is-fullwidth" style={{ marginLeft: '128px' }}>
+                            {/*TODO place the top into table form
+                            **/}
 
-                                <tr>
-                                    <td>
-                                        <figure className="image is-128x128">
-                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <figure className="image is-128x128">
-                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
-                                        </figure>
-                                    </td>
-                                    <td>
-                                        <figure className="image is-128x128">
-                                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
-                                        </figure>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button className="menuGame" onClick={() => this.handleButton('menu')}>
-                                            <span className="icon is-small">
-                                            <i className="fas fa-edit"></i>
-                                            </span>
-                                            <span>Menu Learning</span>
-                                        </button>
-
-                                    </td>
-                                    <td>
-                                        <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
-                                    </td>
-                                    <td>
-                                        <button className="greetingGame" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
-                                    </td>
-                                </tr>
+                                <tbody>
+                                {/**
+                                * 3 buttons on page for each game.
+                                * Move into seperate tables
+                                */}
+                                    <tr>
+                                        <td>
+                                            <figure className="image is-128x128">
+                                                <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <figure className="image is-128x128">
+                                                <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="AllergyGameImage" />
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <figure className="image is-128x128">
+                                                <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="GreetingGameImage" />
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button className="menuGame" onClick={() => this.handleButton('menu')}>
+                                                <span className="icon is-small">
+                                                <i className="fas fa-edit"></i>
+                                                </span>
+                                                <span>Menu Learning</span>
+                                            </button>
+                                        </td>
+                                        <td>
+                                            <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
+                                        </td>
+                                        <td>
+                                            <button className="greetingGame" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
+                                        </td>
+                                    </tr>
                             
-                            </tbody>
-                        </table>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                </div>
+                </MainBox>
+                                       
             </Router>
         );
     }
