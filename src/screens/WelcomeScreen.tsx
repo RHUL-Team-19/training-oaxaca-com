@@ -41,7 +41,7 @@ export default class WelcomeScreen extends React.Component{
                     <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
                     
                     <div className="images">
-                        <figure className="image is-128x128	">
+                        <figure className="image is-3by4">
                             <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
                         </figure>
                     </div>
