@@ -32,16 +32,19 @@ export default class WelcomeScreen extends React.Component{
         /*
         Renduring the Welcome Screen page. That has buttons that lead to one of the 3 games: menuLearning, greetingsLearning and allergyLearning.
         **/
+
+        // 
+
         return (
             <Router history={history}>
                 <div className="welcome-screen is-desktop">
                     <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
                     
-                    {/* <div className="images">
-                        <figure className="image is-80x120">
-                            <img src={require("https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg")} alt="menuGameImage"/>
+                    <div className="images">
+                        <figure className="image is-128x128	">
+                            <img src="https://objects.wsantos.net/oaxaca-com/menu/images/tacos.jpg" alt="menuGameImage" />
                         </figure>
-                    </div> */}
+                    </div>
 
                     <div className="buttons">
                     <table className="table is-fullwidth" style={{ marginLeft: '280px' }}>
