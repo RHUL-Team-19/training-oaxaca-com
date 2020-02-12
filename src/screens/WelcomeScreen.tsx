@@ -13,18 +13,24 @@ const WelcomeScreenContainer = styled.div`
 
 export default class WelcomeScreen extends React.Component{
 
-    handleButton () {
+    handleButton (e: string) {
         /*handleButton fuction:
         Checks to see which button is pressed to redirct to corresponding page -->
             - If menuGame button is pressed then change page to the MenuLearningGame page.
             onClick={() => redirect(`menu/find/${meal_id}`)}
         **/
-       alert('CLICKED');
+       if(e = 'menu'){
+        alert('menu');
+       } else if(e = 'greeting'){
+        alert('greetings');
+       } else {
+        alert('allergy');
+       }
     };
 
     render(){
         /*
-        Renduring the Welcome Screen page.
+        Renduring the Welcome Screen page. That has buttons that lead to one of the 3 games: menuLearning, greetingsLearning and allergyLearning.
         **/
         return (
             <Router history={history}>
@@ -54,7 +60,7 @@ export default class WelcomeScreen extends React.Component{
                              * Move into seperate tables
                              */}
                             <th>
-                                <button className="menuGame" onClick={this.handleButton}>
+                                <button className="menuGame" onClick={() => this.handleButton('menu')}>
                                     <span className="icon is-small">
                                     <i className="fas fa-edit"></i>
                                     </span>
@@ -62,10 +68,10 @@ export default class WelcomeScreen extends React.Component{
                                 </button>
                             </th>
                             <th>
-                                <button className="alergyGame" onClick={this.handleButton}>Allergy Learning</button>
+                                <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
                             </th>
                             <th>
-                                <button className="greetingGame" onClick={this.handleButton}>Greetings Learning</button>
+                                <button className="greetingGame" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
                             </th>
                         </tbody>
                     </table>
