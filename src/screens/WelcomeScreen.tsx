@@ -73,12 +73,7 @@ export default class WelcomeScreen extends React.Component{
                                     </tr>
                                     <tr>
                                         <td>
-                                            <button className="menuGame" onClick={() => this.handleButton('menu')}>
-                                                <span className="icon is-small">
-                                                <i className="fas fa-edit"></i>
-                                                </span>
-                                                <span>Menu Learning</span>
-                                            </button>
+                                            <button className="menuGame" onClick={() => this.handleButton('menu')}> Menu Learning</button>
                                         </td>
                                         <td>
                                             <button className="allergyGame" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
