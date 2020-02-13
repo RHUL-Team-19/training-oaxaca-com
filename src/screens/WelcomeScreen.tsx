@@ -67,7 +67,7 @@ export default class WelcomeScreen extends React.Component{
                                         </td>
                                         <td>
                                             <figure className="image is-128x128">
-                                                <img src="http://objects.wsantos.net/oaxaca-com/training/Greeting.jpg" alt="GreetingGameImage" />
+                                                <img src="http://objects.wsantos.net/oaxaca-com/training/Customer.png" alt="GreetingGameImage" />
                                             </figure>
                                         </td>
                                     </tr>
