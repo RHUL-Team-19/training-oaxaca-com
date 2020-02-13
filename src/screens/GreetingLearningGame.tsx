@@ -11,7 +11,7 @@ const GreetingsGameContainer = styled.div`
   height: 16.5vw;
 `;
 
-class GreetingsLearningGame extends React.Component{
+export default class GreetingsLearningGame extends React.Component{
 
     handleButton () {
        alert('CLICKED');

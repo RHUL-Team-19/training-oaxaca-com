@@ -3,15 +3,17 @@ import { render } from 'react-dom';
 import history from '../history';
 import styled from 'styled-components';
 import { Router } from 'react-router-dom';
-//import { redirect } from '../util/Util';
 import '../style/style.css';
+import Navbar from '../components/Navbar';
+import MainBox from '../components/MainBox';
+import { redirect } from '../util/Util';
 
 const MenuGameContainer = styled.div`
   width: 35vw;
   height: 16.5vw;
 `;
 
-class MenuLearningGame extends React.Component{
+export default class MenuLearningGame extends React.Component{
 
     handleButton () {
         /*handleButton fuction:
@@ -28,10 +30,14 @@ class MenuLearningGame extends React.Component{
         **/
         return (
             <Router history={history}>
-                <div className="Allergy-screen is-desktop">
-                    <h2>You will have a set of 10 questions to answer about items on the menu. This will help you memorise the menu.</h2> 
+            <Navbar />
+            <MainBox>
+                <div className="welcome-screen is-desktop">
+                    <h2>Welcome to the Menu training Game! There will be a series of 10 questions, answer them correctly.</h2>
                 </div>
-            </Router>
+            </MainBox>
+                                   
+        </Router>
         );
     }
 }
