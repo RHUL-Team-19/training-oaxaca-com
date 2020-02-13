@@ -11,7 +11,7 @@ const AllergyGameContainer = styled.div`
   height: 16.5vw;
 `;
 
-class AllergyLearningGame extends React.Component{
+export default class AllergyLearningGame extends React.Component{
 
     handleButton () {
         /*handleButton fuction:
