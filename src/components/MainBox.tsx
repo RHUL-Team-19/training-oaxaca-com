@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledBox = styled.div`
-  margin-top: 30px;
-  margin-left: auto;
-  width: 95%;
-  margin-right: auto;
-  height: calc(100vh - 120px);
-  overflow: auto;
+  margin-top: 2vw;
+  max-width: 95%;
+  height: calc(100vh - 8vw);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  border-radius: 12px;
 `;
 
 // This is just done to workaround a typing bug
