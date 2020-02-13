@@ -40,8 +40,18 @@ export default class WelcomeScreen extends React.Component{
                 <Navbar />
                 <MainBox>
                     <div className="welcome-screen is-desktop">
-                        <h2>Welcome to the training portal! Please select the game you would like to play:</h2>
-
+                        {/* creating the colored banner below the navBar*/}
+                        <section className="hero is-primary">
+                            <div className="hero-body">
+                                <div className="container">
+                                    <h1 className="title">
+                                    Welcome to the training portal! Please select the game you would like to play:
+                                    </h1>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        
                         <div className="buttons" style={{ justifyContent: 'center'}}>
                             <table className="table is-fullwidth" style={{ justifyContent: 'center', width:'140vh', alignItems: 'center' }}>
                                 {/*Images and buttons placed in table form for layout purposes.
@@ -52,7 +62,7 @@ export default class WelcomeScreen extends React.Component{
                                         */}
                                         <td>
                                             <figure className="image is-128x128">
-                                                <img src="http://objects.wsantos.net/oaxaca-com/training/Menu.jpg" alt="menuGameImage" />
+                                                <img src="http://objects.wsantos.net/oaxaca-com/training/Menu.jpg" alt="MenuGameImage" />
                                             </figure>
                                         </td>
                                         <td>
@@ -84,7 +94,8 @@ export default class WelcomeScreen extends React.Component{
                             
                                 </tbody>
                             </table>
-                        </div>   
+                        </div> 
+                       
                     </div>                   
                 </MainBox>                                     
             </Router>
