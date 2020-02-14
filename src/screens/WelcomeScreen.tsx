@@ -82,20 +82,19 @@ export default class WelcomeScreen extends React.Component{
                                         * Move into seperate tables
                                         */}
                                         <td>
-                                            <button className="button is-centered" onClick={() => this.handleButton('menu')}> Menu Learning</button>
+                                            <button className="button is-centered" onClick={() => redirect('menugame')}> Menu Learning</button>
                                         </td>
                                         <td>
-                                            <button className="button is-centered" onClick={() => this.handleButton('allergy')}>Allergy Learning</button>
+                                            <button className="button is-centered" onClick={() => redirect('allergensgame')}>Allergy Learning</button>
                                         </td>
                                         <td>
-                                            <button className="button is-centered" onClick={() => this.handleButton('greeting')}>Greetings Learning</button>
+                                            <button className="button is-centered" onClick={() => redirect('greetingsgame')}>Greetings Learning</button>
                                         </td>
                                     </tr>
                             
                                 </tbody>
                             </table>
-                        </div> 
-                       
+                        </div>                 
                     </div>                   
                 </MainBox>                                     
             </Router>

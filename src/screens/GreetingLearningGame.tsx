@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { Router } from 'react-router-dom';
 //import { redirect } from '../util/Util';
 import '../style/style.css';
+import Navbar from '../components/Navbar';
+import MainBox from '../components/MainBox';
 
 const GreetingsGameContainer = styled.div`
   width: 35vw;
@@ -23,9 +25,12 @@ export default class GreetingsLearningGame extends React.Component{
         **/
         return (
             <Router history={history}>
-                <div className="Allergy-screen is-desktop">
-                    <h2>You will have a set of questions to answer about how to greet guests. This will help you know how to handle customers.</h2> 
-                </div>
+                <Navbar />
+                <MainBox>
+                    <div className="welcome-screen is-desktop">
+                        <h2>Welcome to the Greetings training Game! There will be a series of 10 questions, answer them correctly.</h2>
+                    </div>
+                </MainBox>                                  
             </Router>
         );
     }

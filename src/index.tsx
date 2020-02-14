@@ -12,14 +12,12 @@ import GreetingLearningGame from './screens/GreetingLearningGame';
 ReactDOM.render(
     <Router history={history}>
         <Redirect to="/welcomescreen" />
-        {
         <switch>
             <Route exact path="/WelcomeScreen" component={WelcomeScreen}/>
             <Route exact path="/menugame" component={MenuLearningGame} />
             <Route path="/greetingsgame" component={GreetingLearningGame} />
             <Route path="/allergensgame" component={AllergyLearningGame} />
         </switch>
-        }
     </Router>,
     document.getElementById('root')
 );
