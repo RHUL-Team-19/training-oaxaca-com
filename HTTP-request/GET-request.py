@@ -20,16 +20,15 @@ for i in contents:
 
 record_based = str_content.split(',')
 
-print(record_based)
-
-txtfile = open("menuData.txt","a+")
+txtfile = open("menuData.txt","w")
 
 
 for k in record_based:
-    for j in k.split(':',1):
-        txtfile.write(j)
-        txtfile.write('\t')
-    txtfile.write('\n')
+    print(k.split(":",1))
+    txtfile.write(k.split(":",1)[0])
+    txtfile.write("\t")
+    txtfile.write(k.split(":",1)[-1])
+    txtfile.write("\n")
 
 if response.status_code == 200:
     print(response.status_code,': Success!')
