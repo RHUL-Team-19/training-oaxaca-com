@@ -1,0 +1,51 @@
+<script>
+
+    document.write("<b>LESSON 1: PRINT HELLO WORLD USING VARIABLES</b><br><br>");
+    
+    // To start we will create 2 variables:
+    var variable1 = 'Hello ';
+    var variable2 = 'World!<br><br>'; // <br> means line break in html
+     
+    // Create a third variable by adding both variables:
+    var final_text = variable1 + variable2;
+    
+    // Print the final result:
+    document.write(final_text);
+    
+    document.write("<b>LESSON 2: SOLVE AN EQUATION</b><br><br>");
+    
+    var n = 9;
+    var x = n*n;
+    document.write("Result of n*n=" + x);
+    
+    document.write("<br><br><b>LESSON 3: PRINT NUMBERS FROM 1 TO 10</b><br><br>");
+    
+    // Create a loop of 10 elements.
+    // Variable "i" starts with value 1 and while i<=10 it will increment 1 (i=i+1) 
+    for (var i=1; i<=10; i=i+1) {
+    
+      document.write(i); // Print the current "i" number
+    
+      // Print a comma followed by a space if i < 10
+      if (i<10) {
+        document.write(", ");
+      }
+    }
+    
+    function show_random_number() {
+    
+      var random_number = Math.random(); // generate random number between 0 and 1
+      alert(random_number); // show popup with a random number
+      
+    }
+    
+    </script>
+    
+    <p style="color: green">
+    The content above was created with JavaScript.<br>
+    This content is created with <b>HTML</b>.<br>
+    You can edit JavaScript and HTML in the left part of the page
+    and click "<b>Run code</b>" to view results in the right part of the page.
+    </p>
+    <b>LESSON 4: CALL A JAVASCRIPT FUNCTION:</b>
+    <input type=button onClick="show_random_number()" value="Generate random number">

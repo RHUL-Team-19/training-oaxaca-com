@@ -1,18 +1,18 @@
 export class menuModels {
-    private meal_id:string;
-    private name:string;
-    private price:number;
-    private description:string;
-    private is_vegan:boolean;
-    private is_vegetarian:boolean;
-    private does_contain_egg:boolean;
-    private does_contain_soy:boolean;
-    private does_contain_fish:boolean;
-    private does_contain_nuts:boolean;
-    private does_contain_gluten:boolean;
-    private does_contain_dairy:boolean;
-    private image_url:string;
-    constructor (
+    meal_id:string;
+    name:string;
+    price:number;
+    description:string;
+    is_vegan:boolean;
+    is_vegetarian:boolean;
+    does_contain_egg:boolean;
+    does_contain_soy:boolean;
+    does_contain_fish:boolean;
+    does_contain_nuts:boolean;
+    does_contain_gluten:boolean;
+    does_contain_dairy:boolean;
+    image_url:string;
+    init (
         meal_id:string,
         name:string,
         price:number,
@@ -120,3 +120,8 @@ export class menuModels {
         return this.image_url;
     }
 }
+
+/*
+var item = new menuModels("2","",0,"",false,false,false,false,false,false,false,false,"");
+console.log(item.getMealID());
+*/
