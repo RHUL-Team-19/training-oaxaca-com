@@ -97,7 +97,3 @@ var menuModels = /** @class */ (function () {
     return menuModels;
 }());
 exports.menuModels = menuModels;
-/*
-var item = new menuModels("2","",0,"",false,false,false,false,false,false,false,false,"");
-console.log(item.getMealID());
-*/ 
